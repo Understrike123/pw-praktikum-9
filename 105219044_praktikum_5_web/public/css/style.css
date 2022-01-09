@@ -1,0 +1,24 @@
+.content-1 h2{
+    width: 50%;
+    font-size: 25px;
+}
+.content_1{
+    width: 50%;
+    
+}
+.img-fluid{
+    align-items: center;
+    margin-left: 0px;
+}
+.content_2{
+    float: right;
+    width: 50%;
+}
+.content_2 h2{
+    font-size: 25px;
+}
+.card-footer{
+    float: inline-end;
+    position: relative;
+    bottom: 0px;
+}

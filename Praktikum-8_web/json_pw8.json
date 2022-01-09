@@ -1,0 +1,101 @@
+{
+    "menu":[
+        {
+            "jenis":"makanan",
+            "nama":"Mie ayam biasa",
+            "deskripsi":"mie dicampur ayam dengan bumbu kecap dan ditambah kerupuk pangsit",
+            "harga":"16000",
+            "estimasi":"15 menit",
+            "gambar":"gambar/mie_ayam.jpg"
+        },
+        {
+            "jenis":"makanan",
+            "nama":"Mie ayam bakso",
+            "deskripsi":"mie ayam dicampur bakso dan kerupuk pangsit",
+            "harga":"18000",
+            "estimasi":"15 menit",
+            "gambar":"gambar/mie_ayam_bakso.jpg"
+        },
+        {
+            "jenis":"makanan",
+            "nama":"Nasi goreng ati ampela",
+            "deskripsi":"nasi goreng dicampur ati ampela goreng",
+            "harga":"24000",
+            "estimasi":"15 menit",
+            "gambar":"gambar/nasgor_ati_ampela.jpg"
+        },
+        {
+            "jenis":"makanan",
+            "nama":"Nasi goreng sosis",
+            "deskripsi":"nasi goreng campur sosis potong",
+            "harga":"20000",
+            "estimasi":"15 menit", 
+            "gambar":"gambar/nasgor_sosis.jpeg"
+        },
+        {
+            "jenis":"makanan",
+            "nama":"Mie goreng ayam",
+            "deskripsi":"mie goreng campur ayam suir",
+            "harga":"20000",
+            "estimasi":"15 menit", 
+            "gambar":"gambar/bakmi.jpg"
+        },
+        {
+            "jenis":"makanan",
+            "nama":"Mie goreng seafood",
+            "deskripsi":"mie goreng campur aneka seafood",
+            "harga":"24000",
+            "estimasi":"15 menit",
+            "gambar":"gambar/nasgor_seafood.jpg"
+        },
+        {
+            "jenis":"minuman",
+            "nama":"Air mineral",
+            "deskripsi":"air mineral biasa",
+            "harga":"1000",
+            "estimasi":"5 menit",
+            "gambar":"gambar/air_mineral.jpg"
+        },
+        {
+            "jenis":"minuman",
+            "nama":"Es jeruk",
+            "deskripsi":"jeruk peras",
+            "harga":"5000",
+            "estimasi":"5 menit",
+            "gambar":"gambar/es_jeruk.jpg"
+        },
+        {
+            "jenis":"minuman",
+            "nama":"Es teh tawar/manis",
+            "deskripsi":"teh pakai es batu",
+            "harga":"3000",
+            "estimasi":"5 menit",
+            "gambar":"gambar/es_teh.jpg"
+        },
+        {
+            "jenis":"minuman",
+            "nama":"Kopi dingin/panas",
+            "deskripsi":"kopi seduh",
+            "harga":"5000",
+            "estimasi":"5 menit",
+            "gambar":"gambar/kopi.jpg"
+
+        },
+        {
+            "jenis":"dessert",
+            "nama":"Roti bakar coklat keju",
+            "deskripsi":"roti bakar dengan topping coklat dan keju",
+            "harga":"10000",
+            "estimasi":"10 menit",
+            "gambar":"gambar/roti_bakar.jpg"
+        },
+        {
+            "jenis":"dessert",
+            "nama":"Piscok",
+            "deskripsi":"pisang goreng dengan topping coklat",
+            "harga":"10000",
+            "estimasi":"10 menit",
+            "gambar":"gambar/piscok.jpg"
+        }
+    ]
+}

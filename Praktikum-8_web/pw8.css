@@ -1,0 +1,18 @@
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+}
+.row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*{
+    background-color: aqua;
+}
+.col-md-4{
+    background-color: aqua;
+}
+.bg-info{
+    background-image: var(--bs-gradient);
+}

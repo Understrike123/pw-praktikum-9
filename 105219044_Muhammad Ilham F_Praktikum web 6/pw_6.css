@@ -1,0 +1,55 @@
+
+.header{
+    position: relative;
+    left: 20%;
+    
+    height: 100px;
+    width: 500px;
+}
+.header img{
+    height: 100px;
+    width: 150px;
+    
+}
+.header  h1{
+    position: relative;
+    left: 10px;
+    margin-left: 20px;
+}
+.content{
+    box-sizing: content-box;
+    margin-top: 20px;
+    
+    width: 1000px;
+    padding: 5px;
+    height: 2000px;
+}
+.tab_1{
+    
+    border: 1px solid black;
+    -webkit-font-smoothing: antialiased;
+    font-size: 115%;
+    overflow: auto;
+    
+    color: rgb(112, 196, 105);
+    
+}
+.tab_1 tr{
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+}
+.tab_1 th{
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+}
+.tab_1 td{
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+}

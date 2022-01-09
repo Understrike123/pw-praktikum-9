@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="pw_6.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <h1><img src="univ.png">PT.Once Sejahtera</h1>
+        </div>
+        <div class="content">
+            <h1>Pembayaran listrik</h1>
+            <center>
+                <div id="tablePrint"> </div><br>
+            
+
+            </center>
+            <form action="post">
+            
+                <label class="nama" >Masukkan nama anda: </label>
+                <input type="text" id="nama" class="nama"> <br>
+                <label > Pilih kategori peminjaman: </label> <br>
+                <select id="kategori" name="kategori" size="1">
+                    <option value="sosial">Sosial</option>
+                    <option value="rumah">Rumah</option>
+                    <option value="industri">Industri</option>
+                    <option value="apartemen">Apartemen</option>
+                    <option value="villa">Villa</option>
+                </select>
+            <br>
+            
+                <label>Jumlah hari pemakaian listrik: </label>
+                <input  type="number" id="hari" placeholder="Masukkan jumlah hari" name="hari">
+
+                <br>
+                    <input type="button" value="submit" name="submit" onclick="tagihan()">   
+                
+                
+                
+            </form>
+            <br><br>
+            <center>
+                <h1 id="tagihan_h1"></h1>
+                <div id="jumlah_tagihan"></div> <br> <br>
+            
+
+                <h1 id="rincian"></h1>
+                <div id="sosial_display"></div>
+            </center>
+            
+
+            
+
+
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js_pw6.js"></script>
+</body>
+</html>
